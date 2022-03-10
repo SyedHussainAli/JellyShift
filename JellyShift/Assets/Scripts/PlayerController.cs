@@ -63,6 +63,8 @@ public class PlayerController : MonoBehaviour
             playerRB.isKinematic = true;
             transform.localScale = new Vector3(2, 2, 2);
             transform.position = new Vector3(0, 1.6f, 433);
+            Debug.Log("Yow Win");
+
         }
         if (other.CompareTag("audioPlay"))
         {
